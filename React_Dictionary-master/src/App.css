@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+.header{
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header_username{
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.header_image{
+  height: 60px;
+  border-radius: 50%;
+}
+.header_button{
+  border: none;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.notlogged_in{
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px solid black;
+  background-color: white;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+.googlelogin_button{
+  margin-top: 20vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  padding: 5px 0px 5px 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  background-color: silver;
+}
+.facebooklogin_button{
+  margin-top: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  padding: 5px 0px 5px 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  background-color: silver;
+}
+.App{
+  overflow: hidden;
+}
+@media only screen and (max-width: 720px) {
+
+}

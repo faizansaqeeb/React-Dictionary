@@ -1,0 +1,107 @@
+
+.middlebar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .search_bar{
+    width: 70%;
+    overflow-y: auto ;
+    height: calc(100vh - 84px);
+    
+  }
+  .form_division{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+  }
+  .form_input{
+    margin-left: 10vw;
+    width: 300px;
+    border-radius: 1000px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+    height: 25px;
+  }
+  .form_button{
+    border: black;
+    margin-left: 10px;
+    height: 30px;
+    width: 50px;
+    border-radius: 100px;
+    outline: none;
+    text-align: center;
+  }
+ 
+  .words_search{
+    width: 30%;
+    border-left: 1px solid black;
+    height: calc(100vh - 84px);
+    overflow-y: auto;
+    
+  }
+  .words_search_wordbox{
+    border: 1px solid #DADCE0;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 0px 5px 5px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+    text-overflow: ellipsis;
+  }
+  .word_responsediv{
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    /*padding-left: 10px;*/
+  }
+  .word_responsediv_meaning{
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px 10px 10px 10px;
+  }
+  .word_responsediv_play{
+    margin-left: 10px;
+  height: 40px;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 100px;
+  outline: none;
+  border: 2px solid #DADCE0;
+  background-color: white;
+  }
+  .word_responsediv_definition{
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+@media only screen and (max-width: 720px) {
+    .middlebar {
+      display: inline;
+      overflow-y: scroll;
+    }
+    .search_bar{
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+    .form_input{
+      margin-left: 20px;
+      width: 60vw;
+    }
+    .words_search{
+      width: 100%;
+      border-top: 1px solid black;
+      border-left: none;
+      height: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
